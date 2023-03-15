@@ -31,6 +31,6 @@ function autoCarrossel() {
     } else if (carrosselActive === botoesCarrossel.length - 1) {
       changeCarrosselActive(0);
     }
-  }, 5000);
+  }, 10000);
 }
 autoCarrossel();
